@@ -1,0 +1,68 @@
+num_etu,nomE,prenomE,date_naissance,ville,dateInscripBU,dateAbs,numClass,email
+1,Abid,Alaa,1998-05-22,Casablanca,2016-06-25,2020-01-19,3,abid.ala@edu.uca.ma
+2,Abouhijazi,Ahmed,1999-03-12,Marrakech,2017-06-28,2018-05-13,3,abouhijazi..ahmed@edu.uca.ma
+3,Ait Ali,Yasmine,1999-07-21,Marrakech,2017-07-12,,3,aitali.yasmine@edu.uca.ma
+4,Ait Mouddar,Khaoula,199-04-26,Marrakech,2017-07-9,2019-01-23,3,aitmouddar.khaoula@edu.uca.ma
+5,Alaoui El Azher,Lamia,1999-11-06,Casablanca,2017-06-25,2019-05-12,3,alaouielazher.lamia@edu.uca.ma
+6,Alibouch,Aicha,1999-02-13,Khenifra,2017-06-15,2020-01-12,3,alibouch.aicha@edu.uca.ma
+7,Alla,Fatine,1998-03-11,Oujda,2019-07-13,2020-02-3,3,alla.fatine@edu.uca.ma
+8,Anaflous,Mimouna,1999-07-8,Marrakech,2017-06-26,,3,anaflous.mimouna@edu.uca.ma
+9,Anfar,Faissal,1998-05-28,Agadir,2019-07-15,2020-01-05,3,anfar.faissal@edu.uca.ma
+10,Bachar,Said,1999-04-25,Kelaa Des Sraghna,2017-06-18,2020-01-23,3,bachar.said@edu.uca.ma
+11,Bendaoud,Imrane,1998-12-10,Marrakech,2017-06-18,2018-04-14,3,bendaoud.imrane@edu.uca.ma
+12,Benhadda,Soufiane,2000-02-05,Marrakech,2017-06-23,2019-04-11,3,benhadda.soufiane@edu.uca.ma
+13,Bennis,Mehdi,1998-09-20,Marrakech,2016-06-24,2018-05-12,3,bennis.mehdi@edu.uca.ma
+14,Beriane Badi,Meriem,1999-03-11,Marrakech,2017-06-13,2018-03-19,3,berianebadi.meriem@edu.uca.ma
+15,Bouhouch,Souad,1999-10-19,Kalaat M'Gouna,2017-06-15,,3,bouhouch.souad@edu.uca.ma
+16,Boufarra,Oumaima,1999-03-22,Marrakech,2017-07-10,,3,boufarra.oumaima@edu.uca.ma
+17,Bouguessa,Amine,1999-02-11,Marrakech,2017-06-22,2020-01-12,3,bouguessa.amine@edu.uca.ma
+18,Bouhjar,Youness,1999-01-14,Marrakech,2017-06-18,2018-05-12,3,bouhjar.youness@edu.uca.ma
+19,Boumaaza,Aymane,2000-11-03,Ouarzazate,2017-06-27,2020-02-11,3,boumaaza.aymane@edu.uca.ma
+20,Boummaaiz,Ouissal,1999-12-05,Marrakech,2017-06-14,,3,boummaaiz.ouissal@edu.uca.ma
+21,Boussetta,Chaima,1999-07-14,El Aataouiya,2017-06-19,2020-01-12,3,boussetta.chaima@edu.uca.ma
+22,Boussouf,Hajar,1999-05-16,Marrakech,2017-06-18,2020-02-18,3,boussouf.hajar@edu.uca.ma
+23,Bouzayan,Soukaina,1999-01-26,Rabat,2019-06-25,2020-01-13,3,bouzayan.soukaina@edu.uca.ma
+24,Chaib,Moncef,1998-10-06,Marrakech,2017-07-08,2018-09-11,3,chaib.moncef@edu.uca.ma
+25,Dahbi,Yasser,1998-11-03,Marrakech,2017-07-18,2019-05-14,3,dahbi.yasser@edu.uca.ma
+26,Echaib,Asmae,1999-07-26,Beni Mellal,2017-06-23,2020-01-16,3,echaib.asmae@edu.uca.ma
+27,Ed-Dahbi,Abdel majid,1998-10-12,Marrakech,2019-07-16,2020-01-11,3,ed-dahbi.abdelmajid@edu.uca.ma
+28,Ejjaidi,Mohammed Amine,1998-05-23,Boujad,2016-06-26,2018-03-15,3,ejjaidi.mohammedamine@edu.uca.ma
+29,El aich,Houssam,1999-03-08,Marrakech,2017-07-05,2019-04-12,3,elaich.houssam@edu.uca.ma
+30,El aich,Housni,1999-03-08,Marrakech,2017-07-05,2019-03-18,3,elaich.housni@edu.uca.ma
+31,El azm,Aymane,2000-02-08,Rabat,2017-06-28,2018-05-12,3,elazm.aymane@edu.uca.ma
+32,El kadimi,Imane,1999-04-22,Asfi,2017-07-11,2019-04-25,3,elkadimi.imane@edu.uca.ma
+33,El moussaoui,Said,1999-01-10,Agadir,2017-06-18,2019-02-15,3,elmoussaoui.said@edu.uca.ma
+34,El yazidi,Ouassim,1999-04-12,Zagora,2017-06-28,2020-02-11,3,elyazid.ouassim@edu.uca.ma
+35,Es-Salehy,Nada,1997-07-13,Marrakech,2016-06-27,2018-04-11,3,es-salehy.nada@edu.uca.ma
+36,Elamrani Abouelassad,Douha,2000-01-01,Marrakech,2017-06-19,2019-01-17,7,elamraniaboesaad.douha@edu.uca.ma
+37,Essaoudi,Imad,1998-03-23,Marrakech,2016-06-23,2017-05-12,3,essaoudi.imad@edu.uca.ma
+38,Esserhir,Mohammed,1998-05-22,Marrakech,2017-06-19,2018-01-15,3,esserhir.mohammed@edu.uca.ma
+39,Ettahiri,Mahacine,1999-01-12,Marrakech,2017-06-12,,3,ettahiri.mahacine@edu.uca.ma
+40,Fathi,Abdelmoughit,1997-08-02,Essaouira,2016-06-28,2017-05-18,3,fathi.abdelmoughit@edu.uca.ma
+41,Ibnou,Adam,1998-04-19,Marrakech,2017-06-29,2018-05-14,2,Ibnou.Adam@gmail.com
+42,Hansali,Maryam,1999-03-20,Agadir,2019-06-15,2020-02-4,7,Maryam.Hansali@gmail.com
+43,Boujrah,Yahya,2000-07-19,Marrakech,2019-07-05,2020-03-04,7,Boujrah.Yahya@gmail.com
+44,Tajmout,Anas,2000-04-16,Casablanca,2019-07-01,2020-02-06,7,Tajmout.Anas@gmail.com
+45,Amokrane,Salma,2001-01-30,Marrakech,2019-07-02,2019-10-12,7,Amoukrane.Salma@gmail.com
+46,Hossini,Assia,1999-03-13,Marrakech,2017-06-31,2018-05-12,2,"Hossini.Assia@gmail.com
+"
+47,Amani,Nouhaila,1999-03-13,Marrakech,2017-06-30,2019-05-16,2,Amani.nouhaila@Gmail.com
+48,Boujellal,Safae,1998-11-29,Marrakech,2017-06-31,2018-02-04,2,Boujelal.safae@Gmail.com
+49,Natiji,Zakaria,1999-08-22,Marrakech,2017-07-01,,2,Natiji.zakaria@gmail.com
+50,Baji,Imane,1999-06-15,Marrakech,2017-07-01,,2,Baji.Imane@Gmail.com
+51,Ajouad,Ayoub,1998-02-26,Marrakech,2016-06-31,2018-05-03,2,Ajouad.Ayoub@Gmail.com
+52,Allaoui,Oumaima,1999-05-15,Marrakech,2017-07-15,2018-05-15,2,Allaoui.oumaima@Gmail.com
+53,Ait Benjeddi,Hiba,1999-05-18,Marrakech,2016-06-30,2017-03-20,2,Aitbenjeddi.hiba@gmail.com
+54,Ait attouch,Zineb,1999-12-25,Marrakech,2017-07-14,2018-12-20,2,AitAttouch.Zineb@gmail.com
+55,Abdellaoui,Mohamed,1999-09-27,Marrakech,2019-06-30,2019-10-05,7,Abdellaoui.Mohamed@gmail.com
+56,Abid,Niama,2001-07-09,Marrakech,2019-07-20,2019-11-06,7,Abid.niama@Gmail.com
+57,Ngar,Khalid,1999-08-11,Marrakech,2017-07-01,2018-05-06,2,Ngar.Khalid@gmail.com
+58,Jillou,Oumnia,2000-08-16,Marrakech,2017-07-01,2017-11-07,2,Jillou.oumnia@gmail.com
+59,Ikhlef,Ayoub,1998-03-24,Marrakech,2016-07-03,2017-11-30,2,Ikhlef.ayoub@gmail.com
+60,Ahl Moubaraka,Ghada,2001-12-14,Marrakech,2019-07-15,2020-03-03,7,Ahlmoubarak.ghada@gmail.com
+61,Ngagne Tine,Ambroise,1997-01-05,Senegal,2019-07-15,2020-03-03,3,Ambroise.ngagnetine@Gmail.com
+62,Sendez,antoine,1998-05-23,Bresil,2019-07-15,,7,Philipp.antoine@gmail.com
+63,Im,yoo na,1998-03-15,Corée,2019-07-15,2020-03-03,7,Im.yoona@Gmail.com
+64,ghodrigez,frederico,1999-07-28,Italie,2019-07-15,2020-03-03,7,frederico.ghodrigez@gmail.com
+65,Gonsallo Ayrton,Abiodun Hgandjeu,1997-05-22,Mali,2018-07-12,,3,gonsallo.abiodun@gmail.com
+66,Sendze Ndjounouga,Festus Philippe,1998-05-12,Ghana,2016-06-30,,3,sendze.philippe@edu.uca.ma

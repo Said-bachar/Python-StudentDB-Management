@@ -1,0 +1,20 @@
+Nlivre,num_ISBN,titre,nbPages,anneeS,Prix,Nauteur,NbreExemplaires,langue
+1,2-07-036002-4,L'étranger,191,1972-01-07,200.0,23,20,Française
+2,2-07-036004-0,Vol de nuit,187,1972-11-07,300.0,4,40,Française
+3,2-07-0360011-3,Choses vues 1830-1846,1020,1997-03-21,500.0,13,130,Française
+4,2-07-036017-2,Le Rouge et le Noir,576,1997-01-01,150.0,3,20,Française
+5,2-07-036042-3,La peste,288,1972-02-25,400.0,23,55,Française
+6,978-1-60309-322-4,Alone Forever,104,2000-05-22,90.0,7,20,Anglaise
+7,978-1-940733-01-2, The self-taught PROGRAMMER,278,2016-02-25,300.0,8,150,Anglaise
+8,3-08-159312-5,Apprenez à programmer en Python,504,2018-11-21,250.5,24,20,Française
+9,2-05-046003-7,Méthodes de design UX,712,2018-09-06,60.0,25,65,Française
+10,4-09-061287-2,Introduction to Algorithms,500,2010-12-14,340.2,26,80,Anglaise
+11,9780735211292,Atomic Habits,30,2018-02-15,30.0,27,500,Anglaise
+12,2702420583,Un meurtre est-il facile?,650,1950-11-06,150.0,28,2,Française
+13,2702420584,Cinq petits cochon,250,1942-07-05,120.0,28,10,Française
+14,2702420585,La nuit qui ne finit pas,350,1967-06-13,125.0,28,1,Française
+15,2702420586,Le Vallon,100,1946-10-27,90.0,28,50,Française
+16,2702420587,Mr Brown,250,1922-12-10,130.0,28,15,Française
+17,2702420588,Némésis,150,1971-02-16,135.0,28,5,Française
+18,978-1-67859-750-1,Harry Potter and the secret chamber,364,1998-07-02,80.0,29,6,Anglaise
+19,9780735255592,Fables de La Fontaine,268,1668-11-11,450.0,30,1,Française

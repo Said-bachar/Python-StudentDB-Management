@@ -1,0 +1,12 @@
+num_cours,nomC,nb_heures,num_ens
+1,Statistiques Apploquées,30,1
+2,Algorithmique Avancée,36,2
+3,Calclul Scientifique,60,3
+4,Programmation Orientée Objet & C++,64,4
+5,Réseaux & Protocoles,64,5
+6,Eléctronique Numérique & MicroP,44,6
+7,Econmie de l'Entreprise,48,7
+8,Tec,64,8
+11,AOA,56,9
+12,Analyse,66,10
+13,Algèbre,72,10
