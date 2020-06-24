@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 import sqlite3
 
-connection = sqlite3.connect('C:/sqlite/student.db')
+connection = sqlite3.connect('storage/database/student.db')
 cursor = connection.cursor()
 
 # we select all notes from Resultat table:
