@@ -2,7 +2,7 @@ import sqlite3
 
 # Create database if not exist and get a connection to it
 
-connection = sqlite3.connect('C:/sqlite/student.db')  # .db represent the extension
+connection = sqlite3.connect('storage/database/student.db')  # .db represent the extension
 
 # Get a cursor to execute sql statements
 
@@ -117,7 +117,7 @@ connection.close()
 def insBU(etud_name):
     query = "SELECT dateInscripBU FROM Etudiant WHERE nomE=?;"  # the request: select dateIns
 
-    connect = sqlite3.connect('C:/sqlite/student.db') #connect to data
+    connect = sqlite3.connect('storage/database/student.db') #connect to data
     curs1 = connect.cursor() #our cursor
     curs1.execute(query, [etud_name]) #execution with etu_name as parameter
     results = curs1.fetchall() #get all results of the request
@@ -142,7 +142,7 @@ print("Date d'inscription de l'étudiant 'ANFAR' :", insBU('Anfar'))
 # 2
 
 def insCour(numcours):
-    connt = sqlite3.connect('C:/sqlite/student.db')
+    connt = sqlite3.connect('storage/database/student.db')
     curs2 = connt.cursor()
     sql2 = "SELECT nomE, prenomE FROM Etudiant INNER JOIN Inscrit ON Inscrit.num_etu=Etudiant.num_etu INNER JOIN Cours ON Cours.num_cours=Inscrit.num_cours WHERE Cours.num_cours=?;"
 
@@ -172,7 +172,7 @@ print("Les noms des étudiants inscrit dans le cours n° 9:", insCour(9))
 # 3
 
 def ResuEtu(numetu,numcr):
-    connnt = sqlite3.connect('C:/sqlite/student.db')
+    connnt = sqlite3.connect('storage/database/student.db')
     curs3 = connnt.cursor()
     sql3 = '''
         SELECT nomC, AVG(note), MAX(note), MIN(note)
@@ -231,7 +231,7 @@ print(ResuEtu(13, 7))
 # 4 : la liste des étudiants (nom, prenom, note ; la moyene d classe) ayant une note inferieur à 10 et groupés par nom module
 
 def resultEchec():
-    conn = sqlite3.connect('C:/sqlite/student.db')
+    conn = sqlite3.connect('storage/database/student.db')
     curs4 = conn.cursor()
     sql4 = '''
            SELECT nomE,prenomE,note, nomC
@@ -256,7 +256,7 @@ print(resultEchec())
 
 #5 list of students inscrit in every cours
 def insr():
-    connnn = sqlite3.connect('C:/sqlite/student.db')
+    connnn = sqlite3.connect('storage/database/student.db')
     curs5 = connnn.cursor()
     sql5 = '''
                SELECT DISTINCT nomE, prenomE
@@ -282,7 +282,7 @@ print(insr())
 
 #6
 def empLiv(nlivre):
-    connnect = sqlite3.connect('C:/sqlite/student1.db')
+    connnect = sqlite3.connect('storage/database/student.db')
     curs6 = connnect.cursor()
     query = "SELECT nomE, dateRetour FROM Etudiant INNER JOIN Pret ON Pret.num_etu=Etudiant.num_etu INNER JOIN Livre ON Livre.Nlivre=Pret.Nlivre WHERE Livre.Nlivre=?;"
     curs6.execute(query, [nlivre])
@@ -308,7 +308,7 @@ print(empLiv(10))
 #7
 
 def retard():
-    connt = sqlite3.connect('C:/sqlite/student.db')
+    connt = sqlite3.connect('storage/database/student.db')
     curs7 = connt.cursor()
     seven = '''SELECT nomE, prenomE FROM Etudiant 
                INNER JOIN Pret ON Pret.num_etu=Etudiant.num_etu
@@ -332,7 +332,7 @@ print("Les étudiants n'ayant pas encore rendus au moins un livre sont :  ",reta
 
 #8
 def noEmp():
-    con8 = sqlite3.connect('C:/sqlite/student.db')
+    con8 = sqlite3.connect('storage/database/student.db')
     curs8 = con8.cursor()
     eight = " SELECT  titre FROM Livre WHERE NOT exists (SELECT * FROM Pret WHERE Pret.Nlivre = Livre.Nlivre);"
     curs8.execute(eight)
@@ -353,7 +353,7 @@ print(noEmp())
 
 #9
 def ResultTot():
-    con9 = sqlite3.connect('C:/sqlite/student.db')
+    con9 = sqlite3.connect('storage/database/student.db')
     curs9 = con9.cursor()
     sql9 = '''SELECT nomClass, nomC,  AVG(note) 
               FROM Class
@@ -387,7 +387,7 @@ def add_etudiant(database_file, new_etud):
 
 # Change the name of cours :
 def changeCoursname(nvname, numcours):
-    con = sqlite3.connect('C:/sqlite/student.db')
+    con = sqlite3.connect('storage/database/student.db')
     curs = con.cursor()
     sql = '''UPDATE Cours
              SET nomC = ?
@@ -407,7 +407,7 @@ print(changeCoursname('Base de données', 9))
 
 #3 Delete Cours
 def deletCours(numcour):
-    con2 = sqlite3.connect('C:/sqlite/student.db')
+    con2 = sqlite3.connect('storage/database/student.db')
     cur2 = con2.cursor()
     sql2 = '''DELETE FROM Cours
               WHERE num_cours = ?'''
