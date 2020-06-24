@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt  # Importer le module
 import sqlite3 as sql  # Importer sqlite3
-connection = sql.connect('C:/sqlite/student.db') # connexion avec la base
+connection = sql.connect('storage/database/student.db') # connexion avec la base
 cursor = connection.cursor()
 connection.commit() # Sauvgarder les modéfications
 
