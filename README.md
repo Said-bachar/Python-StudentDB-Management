@@ -1,4 +1,4 @@
-#Students Data-Base Management
+##Students Data-Base Management
 
 Manage a students database, visualize its statistics and create a dashboard using Python, SQlite and Microsoft Power BI Desktop.
 ***
